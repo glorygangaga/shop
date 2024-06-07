@@ -1,0 +1,71 @@
+.Error{
+  padding-top: 100px;
+  padding-bottom: 130px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.Error h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Error button{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 18px;
+  background-color: #9DD458;
+  border: none;
+  padding: 17px 45px;
+}
+
+.MainPartSneaker{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.MainPartSneaker img{
+  width: 400px;
+  height: auto;
+}
+
+.PartSneakerInner{
+  border-radius: 20px;
+  border: 1px solid #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;}
+
+.PartSneakerInner button{
+  border: 1px solid #e9e9e9;
+  background-color: transparent;
+  border-radius: 8px; 
+}
+
+.PartSneakerText{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.PartSneakerText button{
+  padding: 8px;
+  display: flex;
+  text-align: center;
+}
+
+.addingBtn button{
+  border-radius: 18px;
+  color: white;
+  background-color: #9DD458;
+  padding: 15px;
+  width: 100%;
+}

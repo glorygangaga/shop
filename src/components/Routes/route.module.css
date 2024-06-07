@@ -1,0 +1,79 @@
+.NoBougth,
+.noBookMarks{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 48vh;
+}
+
+.NoBougth img,
+.noBookMarks img{
+  width: 70px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.NoBougth h1,
+.noBookMarks h1{
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.NoBougthText,
+.noBookMarks p{
+  margin-bottom: 40px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 290px;
+  opacity: 0.4;
+}
+
+.NoBougth button,
+.noBookMarks button{
+  color: #FFF;
+  font-family: Inter;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 50px 16px;
+  border: none;
+  border-radius: 18px;
+  background: #9DD458;
+}
+
+.addingWindow{
+  transition: all 0.3s ease-in-out;
+  position: sticky;
+  z-index: 2;
+  bottom: 30px;
+  left: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: max-content;
+  padding: 10px 30px;
+  border: 1px solid #dfdfdf;
+}
+
+.textBougth{
+  margin-bottom: 40px;
+  display: flex;
+  gap: 0 20px;
+  align-items: center;
+}
+
+.textBougth button{
+  border: none;
+  background-color: transparent;
+}
+
+.textBougth p{
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+}

@@ -1,0 +1,215 @@
+.main{
+  padding-bottom: 100px;
+}
+
+.SwiperMain{
+  margin-bottom: 40px;
+}
+
+.SwiperSlide{
+  border-radius: 20px;
+  background-color: #F4EFE9;
+  min-height: 300px;
+  padding: 80px 0 0 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.SwiperSlide h2{
+  max-width: 240px;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+  z-index: 2;
+  position: relative;
+}
+
+.SwiperSlide h2 span{
+  color: #8BB43C;
+  font-weight: 700;
+}
+
+.SwiperSlide button{
+  border-radius: 110px;
+  background: #A5D364;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  padding: 14px 50px;
+  z-index: 2;
+  position: relative;
+}
+
+.SwiperSlide::before{
+  content: '';
+  width: 640px;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  background-image: url(./swiper/imgsForSwiper/imageSwiper.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  right: 0;
+  top: 0;
+}
+
+.SwiperSlide::after{
+  content: '';
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  display: flex;
+  background-image: url(./swiper/imgsForSwiper/addidas.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  left: 20px;
+  top: 16px;
+}
+
+.finder{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.finder h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.finder input{
+  border-radius: 10px;
+  border: 1px solid #F3F3F3;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 13px 0 15px 44px;
+}
+
+.finder input::placeholder{
+  color: #C4C4C4;
+}
+
+.finderInner{
+  position: relative;
+}
+
+.finderInner button{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 18px;
+  top: 15px;
+  width: 14px;
+  height: 14px;
+}
+
+.allSneakers{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding-bottom: 50px;
+}
+
+.boxSneaker{
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  width: 210px;
+  height: 260px;
+  border-radius: 40px;
+  border: 1px solid #F3F3F3;
+  background-color: #FFF;
+  padding: 20px 30px 35px 30px;
+}
+
+.boxSneaker:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;}
+
+.bookmarksBtn{
+  position: absolute;
+  border-radius: 7px;
+  border: 1px solid #f0f0f0;
+  background: #FFF;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.bookmarksBtn svg{
+  transition: all 0.3s ease-in-out;
+  stroke: #EAEAEA;
+  fill: none;
+}
+
+.bookmarksBtn:hover{
+  transform: scale(1.1);
+  border: 1px solid #b6b6b6;
+}
+
+.bookmarksBtn:hover svg{
+  fill: #b6b6b6;
+}
+
+.boxSneaker img{
+  max-width: 133px;
+  max-height: 112px;
+  margin-bottom: 14px;
+}
+
+.propName{
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.price{
+  color: #BDBDBD;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.propPrice{
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.boxMainInner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sneakerBtnAdd{
+  border: none;
+  border-radius: 8px; 
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  height: 32px;
+
+}
+
+.sneakerAddSvg{
+  transition: all 0.2s ease-in-out;
+}
+
+.sneakerBtnAdd:hover{
+  transform: scale(1.2);
+}
+
+.Nothing{
+  text-align: center;
+}

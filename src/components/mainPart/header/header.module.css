@@ -1,0 +1,57 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 0;
+}
+
+.logos{
+  display: flex;
+  gap: 0 16px;
+}
+
+.logoText h1{
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.logoText p{
+  color: #9D9D9D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navHeader{
+  display: flex;
+  gap: 0 32px;
+  align-items: center;
+}
+
+.NavTo {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  gap: 0 10px;
+  color: #5C5C5C;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.NavTo svg{
+  transition: all 0.3s ease-in-out;
+  fill: #9B9B9B;
+  stroke: "#9B9B9B" 
+}
+
+.NavTo:hover svg{
+  fill: #333;
+  transform: scale(1.1);
+}
